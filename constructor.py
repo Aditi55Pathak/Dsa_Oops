@@ -13,4 +13,4 @@ class Icecream:
 
 i = Icecream("Vanilla", 90)
 print(i)
-
+print(i.flavor)
