@@ -5,7 +5,7 @@ class Icecream:
     def __init__(self, flavor, price):
         self.flavor = flavor  # object attribute
         self.price = price
-        print(f"Taking infos about Icecream : {flavor},{price}")
+        print(f"Taking infos about Icecream --- Flavor is :{flavor},Price is :{price}")
 
 
 i = Icecream("Vanilla", 90)
