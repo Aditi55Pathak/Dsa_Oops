@@ -1,12 +1,9 @@
 class Icecream:
 
-    # Default Constructor
-    # def __init__(self):
-    #     print("Hey! It's me")
+    utensil = "Scoop"  # class attribute
 
-    # Parameterized Construtor
     def __init__(self, flavor, price):
-        self.flavor = flavor
+        self.flavor = flavor  # object attribute
         self.price = price
         print(f"Taking infos about Icecream : {flavor},{price}")
 
@@ -14,3 +11,5 @@ class Icecream:
 i = Icecream("Vanilla", 90)
 print(i)
 print(i.flavor)
+
+print(Icecream.utensil)
