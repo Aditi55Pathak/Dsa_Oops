@@ -6,6 +6,7 @@ class Icecream:
 
     # Parameterized Construtor
     def __init__(self, flavor, price):
+        print(self)
         self.flavor = flavor
         self.price = price
         print(f"Taking infos about Icecream : {flavor},{price}")
